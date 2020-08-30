@@ -111,8 +111,8 @@ select {
 }
 
 .goodfellas {
-  --text-color: brown;
-  --background-color: black;
+  --text-color: #fff;
+  --background-color: rgb(194, 23, 66);
 }
 
 .inception {

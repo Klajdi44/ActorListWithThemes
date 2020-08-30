@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Actor List</title>
+</head>
+
+<body id='body'>
+
+  <h1>List of Actors</h1>
+  <!-- modal part -->
+  <section id="modal">
+    <div class="modal-content">
+      <div class='close-btn'>X</div>
+      <h1 class='modal-actor-name '></h1>
+      <h3 class='modal-actor-movie'></h3>
+    </div>
+  </section>
+
+  <!-- theme chooser -->
+  <label id="theme-changer">
+    Choose theme
+    <select name="theme" class='bodyTheme' id="theme">
+      <option class="defaultTheme" value="defaultTheme"> Default theme</option>
+      <option class="pulpfiction" value="pulpfiction"> Pulp Fiction theme</option>
+      <option class='fightclub' value="fightclub">Fight Club theme</option>
+      <option class=' goodfellas' value="goodfellas">Goodfellas theme</option>
+      <option class=' inception' value="inception">Inception theme</option>
+    </select>
+  </label>
+
+
+  <main id='main'> </main>
+  <!-- template that is going to be clonned -->
+  <template id='template'>
+    <div class="content">
+      <h1 class="actor-name">
+      </h1>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- 
